@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>b05</title>
+	
+	<link rel="stylesheet" href="dicophotosstyle.css">
+	
+</head>
+
+<body>
+	<h1 style="font-family: Segoe UI; font-size: 30px">B1-B2 : image 5</h1>
+
+	<button class="button button1" title="Niveau moins avancé." onclick="window.location.href='a05';">A1−A2</button>
+	<button class="button button2" title="Fin du dictionnaire." onclick="window.location.href='home';">SUIVANT</button>
+	<button class="button button3" title="Retour à la page d'acceuil." onclick="window.location.href='home';">HOME</button>
+
+	<div class="popup" id="aquatiques">
+		(des plantes) AQUATIQUES
+		<a class="close" href="#">X</a>
+	</div>
+	<div class="popup" id="pièce d'eau douce">
+		une PIÈCE D'EAU DOUCE
+		<a class="close" href="#">X</a>
+	</div>
+	<div class="popup" id="côte">
+		une CÔTE (du lac)
+		<a class="close" href="#">X</a>
+	</div>
+	<div class="popup" id="marais">
+		un MARAIS
+		<a class="close" href="#">X</a>
+	</div>
+	<div class="popup" id="pessière">
+		une PESSIÈRE
+		<a class="close" href="#">X</a>
+	</div>
+
+	<img src="img05.JPG" alt="Image 05" usemap="#05map">
+
+	<map name="05map">
+		<area
+		href="#côte"
+		coords="2298,1557,2225,1569,2135,1532,2075,1489,2028,1439,2015,1386,1973,1351,1925,1321,1902,1286,1827,1281,1712,1243,1672,1196,1591,1166,1546,1136,1519,1101,1516,1075,1541,1063,1506,1053,1481,1040,1428,1040,1386,1033,1343,1020,1331,985,1278,985,1195,1000,1140,1010,1035,1025,942,1028,831,1048,764,1068,653,1078,525,1103,428,1131,357,1143,297,1148,250,1146,232,1116,272,1096,332,1075,413,1055,463,1035,543,1013,628,995,726,978,786,958,869,943,942,930,1025,910,1110,907,1183,910,1245,897,1310,887,1376,890,1428,885,1456,895,1446,930,1451,943,1486,948,1526,935,1551,940,1581,963,1581,985,1619,980,1657,990,1689,995,1689,1018,1687,1055,1689,1075,1689,1101,1727,1118,1742,1131,1772,1148,1810,1173,1847,1191,1887,1196,1935,1203,1980,1211,1998,1216,2010,1248,2043,1284,2073,1301,2095,1329,2118,1356,2138,1396,2195,1452,2240,1477,2286,1477,2341,1459,2381,1434,2436,1419,2501,1411,2556,1406,2614,1401,2687,1402,2734,1376,2785,1361,2817,1361,2835,1376,2837,1402,2835,1427,2802,1454,2752,1467,2692,1485,2617,1480,2539,1488,2451,1498,2373,1519"
+		shape="poly">
+		<area
+		href="#aquatiques"
+		coords="874,1500,894,1485,882,1458,919,1453,939,1440,957,1438,987,1428,1015,1417,1015,1397,1045,1417,1075,1430,1107,1433,1145,1425,1170,1422,1190,1417,1215,1420,1255,1415,1270,1402,1285,1372,1285,1352,1280,1332,1260,1317,1233,1325,1258,1297,1260,1270,1228,1260,1215,1247,1183,1249,1160,1262,1135,1247,1102,1247,1080,1255,1072,1280,1060,1257,1042,1249,1020,1249,995,1249,979,1249,959,1257,947,1267,927,1280,904,1285,912,1262,892,1247,869,1249,849,1247,829,1242,814,1229,784,1222,761,1224,739,1229,734,1212,729,1192,709,1182,689,1182,663,1182,643,1187,638,1204,616,1209,578,1217,563,1229,543,1232,523,1237,500,1242,468,1242,443,1232,423,1232,405,1242,393,1247,378,1260,360,1262,337,1262,310,1260,287,1267,262,1285,245,1295,235,1312,232,1325,232,1345,235,1365,260,1367,287,1367,317,1360,345,1342,368,1335,360,1355,337,1362,315,1377,302,1387,305,1402,309,1425,329,1435,364,1433,405,1415,422,1397,435,1372,450,1372,455,1397,467,1417,490,1420,525,1425,545,1407,570,1400,603,1392,630,1387,645,1392,613,1407,595,1425,595,1445,605,1455,630,1455,650,1455,670,1445,696,1438,733,1433,766,1433,778,1415,793,1407,816,1402,831,1407,844,1417,811,1422,793,1428,781,1443,778,1463,796,1473,816,1480,836,1493,846,1500"
+		shape="poly">
+		<area
+		href="#pièce d'eau douce"
+		coords="0,1255,0,1893,2839,1893,2839,1453,2782,1443,2740,1448,2679,1463,2612,1463,2551,1458,2501,1458,2429,1468,2356,1478,2311,1498,2271,1518,2238,1550,2208,1548,2163,1525,2130,1513,2110,1480,2092,1453,2070,1422,2055,1402,2060,1385,2042,1362,2045,1337,2017,1322,1997,1300,1972,1292,1955,1270,1934,1247,1879,1242,1822,1227,1774,1207,1754,1202,1751,1172,1724,1169,1696,1152,1659,1147,1626,1122,1603,1097,1563,1089,1588,1082,1608,1069,1631,1066,1623,1026,1583,1016,1548,1024,1513,1011,1498,991,1433,1004,1408,1001,1380,986,1368,971,1368,946,1368,929,1315,926,1295,929,1290,949,1260,954,1232,954,1212,949,1170,951,1154,956,1137,966,1092,971,1067,971,1034,979,1009,976,961,979,901,989,866,996,854,1011,831,1019,773,1021,741,1031,683,1044,640,1051,605,1064,560,1071,530,1079,490,1079,450,1087,407,1104,382,1122,337,1142,294,1139,239,1139,196,1152,166,1167,131,1182,99,1204,71,1212,33,1227"
+		shape="poly">
+		<area
+		href="#marais"
+		coords="2062,1335,2094,1315,2137,1293,2190,1280,2242,1268,2270,1222,2270,1185,2273,1147,2232,1130,2180,1120,2099,1090,2057,1062,2027,1054,1964,1052,1906,1059,1859,1054,1831,1032,1854,1012,1886,974,1881,949,1851,914,1836,876,1801,846,1746,824,1706,824,1646,831,1600,839,1548,844,1467,851,1395,864,1367,864,1335,854,1322,841,1279,834,1232,844,1212,861,1164,874,1124,869,1089,864,1041,879,1024,909,978,919,953,939,893,959,873,979,873,992,926,982,988,984,1034,984,1111,962,1162,957,1219,949,1244,949,1284,942,1315,929,1345,929,1370,937,1375,964,1385,994,1425,1002,1470,1004,1500,1002,1508,1019,1530,1037,1575,1022,1610,1029,1625,1062,1598,1079,1565,1095,1600,1102,1610,1110,1620,1125,1643,1137,1661,1157,1706,1160,1721,1177,1733,1177,1746,1180,1753,1195,1756,1205,1804,1225,1836,1242,1871,1250,1901,1245,1921,1255,1944,1265,1952,1295,1987,1313,2020,1327"
+		shape="poly">
+		<area
+		href="#pessière"
+		coords="0,1204,119,1182,217,1159,279,1112,332,1079,344,1051,402,1011,437,981,485,956,558,936,635,921,716,906,796,881,871,861,941,848,1027,831,1097,846,1165,846,1207,851,1252,836,1295,831,1330,846,1368,873,1428,871,1488,851,1521,843,1608,828,1656,818,1736,818,1794,831,1834,853,1839,873,1847,903,1872,924,1889,961,1879,971,1857,986,1844,1006,1847,1026,1869,1041,1902,1046,1944,1049,1975,1044,2020,1044,2045,1059,2060,1079,2075,1099,2120,1114,2160,1114,2193,1117,2235,1122,2245,1142,2263,1172,2253,1214,2245,1237,2235,1282,2215,1307,2190,1227,2160,1302,2150,1272,2133,1292,2120,1265,2095,1332,2080,1352,2082,1382,2087,1412,2110,1420,2140,1422,2160,1422,2140,1458,2150,1478,2180,1470,2200,1480,2210,1505,2225,1513,2248,1498,2268,1478,2301,1473,2318,1443,2351,1422,2401,1422,2451,1428,2504,1428,2546,1433,2592,1428,2637,1428,2687,1438,2727,1438,2770,1428,2800,1440,2839,1443,2839,38,0,149"
+		shape="poly">
+	</map>
+	
+
+	<script>
+		!function(){"use strict";function r(){function e(){var r={width:u.width/u.naturalWidth,height:u.height/u.naturalHeight},a={width:parseInt(window.getComputedStyle(u,null).getPropertyValue("padding-left"),10),height:parseInt(window.getComputedStyle(u,null).getPropertyValue("padding-top"),10)};i.forEach(function(e,t){var n=0;o[t].coords=e.split(",").map(function(e){var t=1==(n=1-n)?"width":"height";return a[t]+Math.floor(Number(e)*r[t])}).join(",")})}function t(e){return e.coords.replace(/ *, */g,",").replace(/ +/g,",")}function n(){clearTimeout(d),d=setTimeout(e,250)}function r(e){return document.querySelector('img[usemap="'+e+'"]')}var a=this,o=null,i=null,u=null,d=null;"function"!=typeof a._resize?(o=a.getElementsByTagName("area"),i=Array.prototype.map.call(o,t),u=r("#"+a.name)||r(a.name),a._resize=e,u.addEventListener("load",e,!1),window.addEventListener("focus",e,!1),window.addEventListener("resize",n,!1),window.addEventListener("readystatechange",e,!1),document.addEventListener("fullscreenchange",e,!1),u.width===u.naturalWidth&&u.height===u.naturalHeight||e()):a._resize()}function e(){function t(e){e&&(!function(e){if(!e.tagName)throw new TypeError("Object is not a valid DOM element");if("MAP"!==e.tagName.toUpperCase())throw new TypeError("Expected <MAP> tag, found <"+e.tagName+">.")}(e),r.call(e),n.push(e))}var n;return function(e){switch(n=[],typeof e){case"undefined":case"string":Array.prototype.forEach.call(document.querySelectorAll(e||"map"),t);break;case"object":t(e);break;default:throw new TypeError("Unexpected data type ("+typeof e+").")}return n}}"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&"object"==typeof module.exports?module.exports=e():window.imageMapResize=e(),"jQuery"in window&&(window.jQuery.fn.imageMapResize=function(){return this.filter("map").each(r).end()})}();
+	</script>
+
+	<!-- jQuery Script -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<!-- Maphighlight Script -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+
+	<script>
+		$.fn.maphilight.defaults = {
+		fill: true,
+		fillColor: 'FAC750',
+		fillOpacity: 0.2,
+		stroke: true,
+		strokeColor: 'ffffff',
+		strokeOpacity: 1,
+		strokeWidth: 3,
+		fade: true,
+		alwaysOn: false,
+		neverOn: false,
+		groupBy: false,
+		wrapClass: true,
+		shadow: false,
+		shadowX: 0,
+		shadowY: 0,
+		shadowRadius: 6,
+		shadowColor: '000000',
+		shadowOpacity: 0.8,
+		shadowPosition: 'outside',
+		shadowFrom: false
+		}
+		$('img[usemap]').maphilight();
+		imageMapResize();
+		
+	</script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+:root {
+    --color-blue: #003BFF;
+    --color-red: #ED1C24;
+    --color-yellow: #F1D302;
+    --color-white: #FDFFFC;
+    --color-black: #020100;
+
+    --container-width-lg: 88%;
+    --container-width-md: 92%;
+
+    --transition: all 400ms ease;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Syne:wght@400');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Syne";
+    font-size: 2rem;
+    background: var(--color-white);
+    color: var(--color-black);
+    line-height: 1.7;
+}
+
+h1, h2 {
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 5rem;
+    color: var(--color-blue);
+}
+
+h2 {
+    font-size: 4.5rem;
+    color: var(--color-red);
+}
+
+a {
+    color: var(--color-black);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-blue);
+}
+
+img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    max-width: 2160px;
+}
+
+.logo {
+    height: 8rem;
+    color: currentColor;
+}
+
+/* NAV */
+
+nav {
+    height: 5rem;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.nav__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__toggle-btn {
+    display: none;
+}
+
+.nav__logo {
+    width: 7.5rem;
+}
+
+.nav__links {
+    display: flex;
+    gap: 4rem;
+}

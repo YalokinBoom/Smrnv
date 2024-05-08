@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>a01</title>
+	
+	<link rel="stylesheet" href="dicophotosstyle.css">
+	
+</head>
+
+<body>
+	<h1 style="font-family: Segoe UI; font-size: 30px">A1-A2 : image 1</h1>
+
+	<button class="button button1" title="Niveau plus avancé." onclick="window.location.href='b01';">B1-B2</button>
+	<button class="button button2" title="Image A1-A2 suivante." onclick="window.location.href='a02';">SUIVANT</button>
+	<button class="button button3" title="Retour à la page d'acceuil." onclick="window.location.href='home';">HOME</button>
+
+	<div class="popup" id="oiseau">
+		un OISEAU
+		<a class="close" href="#">X</a>
+	</div>
+	<div class="popup" id="plante">
+		une PLANTE
+		<a class="close" href="#">X</a>
+	</div>
+	<div class="popup" id="pierre">
+		une PIERRE
+		<a class="close" href="#">X</a>
+	</div>
+	<div class="popup" id="mortes">
+		(des feuilles) MORTES
+		<a class="close" href="#">X</a>
+	</div>
+	<div class="popup" id="herbe">
+		une HERBE
+		<a class="close" href="#">X</a>
+	</div>
+
+	<img src="img01.JPG" alt="Image 01" usemap="#01map">
+
+	<map name="01map">
+		<area 
+		href="#oiseau"
+		coords="2318,2831,2249,2773,2197,2821,2249,2651,2138,2657,2170,2604,2091,2603,2265,2449,2392,2238,2620,2074,3023,1941,3081,1899,3229,1872,3256,1820,3245,1772,3309,1661,3425,1645,3505,1740,3610,1894,3494,1825,3441,1968,3335,2079,3399,2153,3351,2328,3219,2492,3102,2540,2964,2747,3065,2948,3309,3102,3092,3049,3007,3027,2911,3080,2917,3001,2805,2762,2806,2604,2625,2620,2530,2609,2366,2763"
+		shape="poly">
+		<area 
+		href="#plante"
+		coords="4198,2656,4368,2735,4468,2666,4489,2613,4611,2550,4728,2391,4839,2285,4934,2507,4908,2279,4982,2152,4733,2237,4844,2089,5040,1967,5125,1988,5130,1935,4892,1988,4712,2062,4908,1781,4775,1718,4648,1808,4728,1495,4685,1442,4601,1442,4564,1554,4384,1681,4341,1310,4304,1119,4299,828,4283,547,4219,505,4166,515,4113,595,4113,950,4151,1278,4219,1675,4177,1649,4087,1649,4018,1776,3902,1644,3822,1660,3827,1691,3764,1681,3679,1718,3679,1755,3632,1771,3610,1866,3621,1914,3531,1935,3552,1999,3637,2105,3536,2083,3658,2173,3425,2158,3372,2173,3367,2205,3425,2242,3361,2232,3303,2338,3425,2417,3637,2444,3854,2539,3949,2481,4076,2502,4108,2587"
+		shape="poly">
+		<area 
+		href="#pierre"
+		coords="0,3492,168,3455,189,3402,274,3412,401,3365,592,3381,814,3333,910,3275,1026,3290,1148,3275,1418,3243,1508,3200,1635,3190,1704,3169,1810,3200,1942,3169,2091,3163,2271,3052,2467,3105,2546,3137,2594,3089,2631,3100,2694,3100,2832,3084,2922,3084,2985,3004,3070,3057,3160,3063,3309,3121,3383,3121,3478,3211,3552,3190,3594,3243,3706,3238,3775,3285,3891,3306,4045,3434,4161,3465,4225,3529,4405,3539,4537,3592,4643,3672,4775,3794,4839,3894,4823,3932,4823,4000,0,4000"
+		shape="poly">
+		<area
+		href="#mortes"
+		coords="3833,2570,3759,2559,3653,2464,3367,2522,3404,2564,3616,2490,3690,2554,3574,2596,3595,2639,3325,2628,3113,2564,3251,2639,3494,2718,3547,2729,3388,2750,3494,2771,3473,2803,3309,2782,3420,2824,3341,2877,3304,2872,3293,2903,3383,2914,3372,2962,3346,3041,3367,3078,3431,3099,3457,3115,3510,3158,3563,3184,3621,3211,3780,3280,3865,3311,3918,3311,3966,3338,4019,3301,4124,3327,4151,3290,4103,3174,4051,3142,3961,3264,3971,3142,3998,3025,4045,2999,4003,2903,4088,2972,4029,2665,4045,2548,4082,2654,4172,3004,4247,2909,4326,2866,4448,3009,4506,3158,4432,3073,4257,2956,4225,3110,4326,3126,4437,3227,4506,3380,4533,3460,4490,3465,4474,3513,4559,3592,4670,3693,4697,3645,5020,3793,5020,3698,4903,3439,4977,3486,5004,3401,4887,3290,5078,3380,4983,3285,4919,3131,5046,3269,5110,3359,5115,3264,4961,3004,4961,2951,5247,3126,5480,3168,5322,3099,5036,2946,4977,2888,5025,2877,4993,2850,5327,3052,5390,3057,5343,3004,5099,2824,5099,2782,4707,2580,4628,2612,4585,2670,4559,2744,4464,2787,4395,2744,4246,2687,4161,2655,4113,2697,4087,2528,3986,2432,3997,2485,3955,2565,3865,2528"
+		shape="poly">
+		<area
+		href="#herbe"
+		coords="714,3349,549,3375,438,3349,327,3370,205,3391,163,3460,4,3460,36,3365,9,3317,78,3328,83,3269,142,3306,163,3243,205,3290,279,3259,285,3306,380,3285,364,3206,295,3206,295,3132,205,3153,253,3084,142,3100,142,3031,94,3100,62,3041"
+		shape="poly">
+	</map>
+	
+
+	<script>
+		!function(){"use strict";function r(){function e(){var r={width:u.width/u.naturalWidth,height:u.height/u.naturalHeight},a={width:parseInt(window.getComputedStyle(u,null).getPropertyValue("padding-left"),10),height:parseInt(window.getComputedStyle(u,null).getPropertyValue("padding-top"),10)};i.forEach(function(e,t){var n=0;o[t].coords=e.split(",").map(function(e){var t=1==(n=1-n)?"width":"height";return a[t]+Math.floor(Number(e)*r[t])}).join(",")})}function t(e){return e.coords.replace(/ *, */g,",").replace(/ +/g,",")}function n(){clearTimeout(d),d=setTimeout(e,250)}function r(e){return document.querySelector('img[usemap="'+e+'"]')}var a=this,o=null,i=null,u=null,d=null;"function"!=typeof a._resize?(o=a.getElementsByTagName("area"),i=Array.prototype.map.call(o,t),u=r("#"+a.name)||r(a.name),a._resize=e,u.addEventListener("load",e,!1),window.addEventListener("focus",e,!1),window.addEventListener("resize",n,!1),window.addEventListener("readystatechange",e,!1),document.addEventListener("fullscreenchange",e,!1),u.width===u.naturalWidth&&u.height===u.naturalHeight||e()):a._resize()}function e(){function t(e){e&&(!function(e){if(!e.tagName)throw new TypeError("Object is not a valid DOM element");if("MAP"!==e.tagName.toUpperCase())throw new TypeError("Expected <MAP> tag, found <"+e.tagName+">.")}(e),r.call(e),n.push(e))}var n;return function(e){switch(n=[],typeof e){case"undefined":case"string":Array.prototype.forEach.call(document.querySelectorAll(e||"map"),t);break;case"object":t(e);break;default:throw new TypeError("Unexpected data type ("+typeof e+").")}return n}}"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&"object"==typeof module.exports?module.exports=e():window.imageMapResize=e(),"jQuery"in window&&(window.jQuery.fn.imageMapResize=function(){return this.filter("map").each(r).end()})}();
+	</script>
+
+	<!-- jQuery Script -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<!-- Maphighlight Script -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+
+	<script>
+		$.fn.maphilight.defaults = {
+		fill: true,
+		fillColor: 'FAC750',
+		fillOpacity: 0.2,
+		stroke: true,
+		strokeColor: 'ffffff',
+		strokeOpacity: 1,
+		strokeWidth: 3,
+		fade: true,
+		alwaysOn: false,
+		neverOn: false,
+		groupBy: false,
+		wrapClass: true,
+		shadow: false,
+		shadowX: 0,
+		shadowY: 0,
+		shadowRadius: 6,
+		shadowColor: '000000',
+		shadowOpacity: 0.8,
+		shadowPosition: 'outside',
+		shadowFrom: false
+		}
+		$('img[usemap]').maphilight();
+		imageMapResize();
+		
+	</script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>
